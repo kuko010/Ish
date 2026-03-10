@@ -91,7 +91,7 @@ dependencies {
 	modImplementation("dev.isxander:yet-another-config-lib:${property("yacl_version")}+1.20.1-fabric")
 
 	/* Runtime funsies */
-	modRuntimeOnly("maven.modrinth:isometric-renders:0.4.5+1.20")
+//	modRuntimeOnly("maven.modrinth:isometric-renders:0.4.5+1.20")
 
 
 

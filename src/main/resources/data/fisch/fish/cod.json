@@ -1,8 +1,0 @@
-{
-  "fish": "minecraft:cod",
-  "base_chance": 5,
-  "bool": true,
-  "baits": [
-    "minecraft:diamond"
-  ]
-}

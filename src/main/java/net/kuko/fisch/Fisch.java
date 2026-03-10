@@ -2,6 +2,7 @@ package net.kuko.fisch;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.loader.api.FabricLoader;
 import net.kuko.fisch.registries.ModBlockEntities;
 import net.kuko.fisch.registries.ModBlocks;
 import net.kuko.fisch.registries.ModEnergy;
@@ -29,6 +30,8 @@ public class Fisch implements ModInitializer {
 		ModItems.register();
 		ModEnergy.register();
 
-
+		if (FabricLoader.getInstance().isModLoaded("computercraft")) {
+			net.kuko.fisch.computercraft.UpgradeRegistry.register();
+		}
 	}
 }
