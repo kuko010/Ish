@@ -1,30 +1,21 @@
 package net.kuko.fisch.registries;
 
-import io.wispforest.owo.registration.reflect.AutoRegistryContainer;
-import io.wispforest.owo.registration.reflect.FieldRegistrationHandler;
-import net.fabricmc.fabric.impl.biome.modification.BuiltInRegistryKeys;
+import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.kuko.fisch.Fisch;
+import net.kuko.fisch.block.entity.BlockEntityExampleBlockEntity;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 
-public class ModBlockEntities implements AutoRegistryContainer<BlockEntityType<?>> {
-//    public static final BlockEntityType<ExamplePedestalBlockEntity> EXAMPLE_PEDESTAL_BE = FabricBlockEntityTypeBuilder.create(ExamplePedestalBlockEntity::new,
-//            ModBlocksInit.EXAMPLE_PEDESTAL).build();
+public class ModBlockEntities  {
+    public static final BlockEntityType<BlockEntityExampleBlockEntity> EXAMPLE_BLOCK_ENTITY_BE =
+            Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(Fisch.MOD_ID, "example_block_entity_be"),
+                    FabricBlockEntityTypeBuilder.create(BlockEntityExampleBlockEntity::new,
+                            ModBlocks.BLOCK_ENTITY_EXAMPLE).build());
 
-    @Override
-    public Registry<BlockEntityType<?>> getRegistry() {
-        return BuiltInRegistries.BLOCK_ENTITY_TYPE;
-    }
-
-    @Override
-    @SuppressWarnings("unchecked")
-    public Class<BlockEntityType<?>> getTargetFieldType() {
-        return (Class<BlockEntityType<?>>) (Object) BlockEntityType.class;
-    }
 
     public static void register() {
-        FieldRegistrationHandler.register(ModBlockEntities.class, Fisch.MOD_ID, false);
+
     }
 }
