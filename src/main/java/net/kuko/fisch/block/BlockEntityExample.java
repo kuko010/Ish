@@ -1,6 +1,6 @@
 package net.kuko.fisch.block;
 
-import net.kuko.fisch.block.entity.BlockEntityExampleBlockEntity;
+//import net.kuko.fisch.block.entity.BlockEntityExampleBlockEntity;
 import net.kuko.fisch.registries.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.BaseEntityBlock;
@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jspecify.annotations.Nullable;
 
-
+/*
 public class BlockEntityExample extends BaseEntityBlock {
     public BlockEntityExample(Properties properties) {
         super(properties);
@@ -25,3 +25,4 @@ public class BlockEntityExample extends BaseEntityBlock {
         return RenderShape.MODEL;
     }
 }
+*/
