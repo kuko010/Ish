@@ -18,7 +18,7 @@ public class LightTextureMixin {
             )
     )
     private float getGammaFloatValue(Double instance, Operation<Float> original) {
-        //todo: add actual config, for now hardcoding for "false" (
+        //todo: add actual Config, for now hardcoding for "false" (
         var configVal = false;
         return original.call((!configVal ? instance : Double.valueOf(Float.MAX_VALUE)));
     }

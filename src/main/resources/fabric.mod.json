@@ -21,6 +21,9 @@
 		"fabric-datagen": [
 			"net.kuko.fisch.FischDataGenerator"
 		],
+		"modmenu": [
+			"net.kuko.fisch.config.ModMenuIntegration"
+		],
 		"client": [
 			"net.kuko.fisch.FischClient",
 			"com.wdiscute.libtooltips.Tooltips"

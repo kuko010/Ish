@@ -61,6 +61,12 @@ repositories {
     /* Midnight lib */
     maven("https://maven.midnightdust.eu/releases")
 
+    /* Mood Menu */
+    maven {
+        name = "Terraformers"
+        url = uri("https://maven.terraformersmc.com/")
+    }
+
     /* Config */
     maven("https://maven.isxander.dev/releases") {
         name = "Xander Maven"
@@ -96,6 +102,10 @@ dependencies {
 
     /* Config */
     modImplementation( "dev.isxander:yet-another-config-lib:${project.property("yacl_version")}")
+
+
+    /* Modmenu */
+    modImplementation("com.terraformersmc:modmenu:${project.property("modmenu_version")}")
 
     /* Midnight lib */
     val midnightlib = "eu.midnightdust:midnightlib:${project.property("midnightlib_version")}"

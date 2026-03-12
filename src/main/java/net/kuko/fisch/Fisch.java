@@ -1,10 +1,8 @@
 package net.kuko.fisch;
 
-import eu.midnightdust.lib.config.MidnightConfig;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.loader.api.FabricLoader;
-import net.kuko.fisch.config.Config;
 import net.kuko.fisch.data.DataRegistry;
 import net.kuko.fisch.registries.ModBlockEntities;
 import net.kuko.fisch.registries.ModBlocks;
@@ -31,10 +29,12 @@ public class Fisch implements ModInitializer {
 		ModEnergy.register();
 		DataRegistry.register();
 
-		MidnightConfig.init(MOD_ID, Config.class);
-
 		if (FabricLoader.getInstance().isModLoaded("computercraft")) {
 			net.kuko.fisch.computercraft.UpgradeRegistry.register();
+		}
+
+		if (FabricLoader.getInstance().isModLoaded("yet_another_config_lib_v3")) {
+			net.kuko.fisch.config.Config.load();
 		}
 	}
 }
