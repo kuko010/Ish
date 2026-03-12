@@ -1,9 +1,8 @@
 package net.kuko.fisch;
 
-import io.wispforest.owo.ui.core.Color;
 
 public class Utils {
-
+/*
     public static int packARGB(long packed) {
         return new Color(
                 (packed >> 16 & 255) / 255f,
@@ -11,5 +10,5 @@ public class Utils {
                 (packed & 255) / 255f,
                 (packed >> 24 & 255) / 255f
         ).argb();
-    }
+    }*/
 }

@@ -23,7 +23,7 @@
 		],
 		"client": [
 			"net.kuko.fisch.FischClient",
-			"net.kuko.fisch.Tooltips"
+			"com.wdiscute.libtooltips.Tooltips"
 		]
 	},
 	"mixins": [

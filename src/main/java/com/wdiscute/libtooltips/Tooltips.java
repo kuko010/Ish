@@ -1,5 +1,6 @@
-package net.kuko.fisch;
-
+package com.wdiscute.libtooltips;
+// Intentionally kept under com.wdiscute.libtooltips to match the original NeoForge package
+// Depends on Fabric-API, practically any version.
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
@@ -200,5 +201,4 @@ public class Tooltips implements ClientModInitializer  {
         }
         return 0xff000000 | (r << 16) | (g << 8) | (b);
     }
-
 }
