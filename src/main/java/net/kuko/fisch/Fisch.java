@@ -3,8 +3,7 @@ package net.kuko.fisch;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.loader.api.FabricLoader;
-import net.kuko.fisch.command.CommandRegistry;
-import net.kuko.fisch.config.ConfigUtils;
+import net.kuko.fisch.compat.config.ConfigUtils;
 import net.kuko.fisch.data.DataRegistry;
 import net.kuko.fisch.registry.ModBlockEntities;
 import net.kuko.fisch.registry.ModBlocks;
@@ -30,10 +29,9 @@ public class Fisch implements ModInitializer {
 		ModItems.register();
 		ModEnergy.register();
 		DataRegistry.register();
-		CommandRegistry.register();
 
 		if (FabricLoader.getInstance().isModLoaded("computercraft")) {
-			net.kuko.fisch.computercraft.UpgradeRegistry.register();
+			net.kuko.fisch.compat.computercraft.UpgradeRegistry.register();
 		}
 
 		ConfigUtils.load(ConfigUtils.handler);

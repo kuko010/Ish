@@ -10,4 +10,6 @@ public class UltimateMachineBlockEntity extends BlockEntity {
     public UltimateMachineBlockEntity(BlockPos blockPos, BlockState blockState) {
         super(ModBlockEntities.ULTIMATE_MACHINE_BLOCK_ENTITY_BE, blockPos, blockState);
     }
+
+
 }

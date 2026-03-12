@@ -1,4 +1,4 @@
-package net.kuko.fisch.computercraft;
+package net.kuko.fisch.compat.computercraft;
 
 
 import com.mojang.math.Transformation;
@@ -9,7 +9,7 @@ import dan200.computercraft.api.turtle.ITurtleUpgrade;
 import dan200.computercraft.api.turtle.TurtleSide;
 import dan200.computercraft.api.turtle.TurtleUpgradeSerialiser;
 import net.kuko.fisch.Fisch;
-import net.kuko.fisch.computercraft.turtle.ExampleTurtleUpgrade;
+import net.kuko.fisch.compat.computercraft.turtle.ExampleTurtleUpgrade;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.core.Registry;

@@ -30,7 +30,7 @@ public class FischClient implements ClientModInitializer {
             }
         });
         if (FabricLoader.getInstance().isModLoaded("computercraft")) {
-            net.kuko.fisch.computercraft.UpgradeRegistry.clientRegister();
+            net.kuko.fisch.compat.computercraft.UpgradeRegistry.clientRegister();
         }
     }
 }

@@ -1,4 +1,4 @@
-package net.kuko.fisch.config;
+package net.kuko.fisch.compat.config;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

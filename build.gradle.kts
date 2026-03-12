@@ -84,11 +84,10 @@ dependencies {
 
     // Utility
     modRuntimeOnly("maven.modrinth:emi:1.1.22+1.20.1+fabric")
-    modRuntimeOnly("com.terraformersmc:modmenu:${property("modmenu_version")}")
 
     /* CC:T */
     modCompileOnly("cc.tweaked:cc-tweaked-${property("minecraft_version")}-fabric-api:${property("cc_version")}")
-    modRuntimeOnly("cc.tweaked:cc-tweaked-${property("minecraft_version")}-fabric:${property("cc_version")}")
+//    modRuntimeOnly("cc.tweaked:cc-tweaked-${property("minecraft_version")}-fabric:${property("cc_version")}")
 
     /* TeamReborn Energy */
     modImplementation("teamreborn:energy:3.0.0")
@@ -112,13 +111,6 @@ dependencies {
     /* Modmenu */
     modRuntimeOnly("com.terraformersmc:modmenu:${project.property("modmenu_version")}")
     modCompileOnly("com.terraformersmc:modmenu:${project.property("modmenu_version")}")
-
-    /* Midnight lib */
-    val midnightlib = "eu.midnightdust:midnightlib:${project.property("midnightlib_version")}"
-    modImplementation(midnightlib)
-    include(midnightlib)
-
-
 
     /* Runtime funsies */
 //	modRuntimeOnly("maven.modrinth:isometric-renders:0.4.5+1.20")

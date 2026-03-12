@@ -1,11 +1,11 @@
-package net.kuko.fisch.config;
+package net.kuko.fisch.compat.config;
 
 import dev.isxander.yacl3.api.*;
 import dev.isxander.yacl3.api.controller.TickBoxControllerBuilder;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
-import static net.kuko.fisch.config.ConfigUtils.handler;
+import static net.kuko.fisch.compat.config.ConfigUtils.handler;
 
 public class Config {
     // Create one instance to hold your data

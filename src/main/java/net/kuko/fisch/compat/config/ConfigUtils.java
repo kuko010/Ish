@@ -1,10 +1,9 @@
-package net.kuko.fisch.config;
+package net.kuko.fisch.compat.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.fabricmc.loader.api.FabricLoader;
 import net.kuko.fisch.Fisch;
-import org.jspecify.annotations.Nullable;
 
 import java.io.IOException;
 import java.nio.file.Files;
