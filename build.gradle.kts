@@ -57,6 +57,14 @@ repositories {
             includeGroup("cc.tweaked")
         }
     }
+
+    /* Midnight lib */
+    maven("https://maven.midnightdust.eu/releases")
+
+    /* Config */
+    maven("https://maven.isxander.dev/releases") {
+        name = "Xander Maven"
+    }
 }
 
 
@@ -81,19 +89,20 @@ dependencies {
     modApi("teamreborn:energy:3.0.0")
     include("teamreborn:energy:3.0.0")
 
-    //
-    /* oωo */
-//	modImplementation("io.wispforest:owo-lib:${property("owo_version")}")
-//	include("io.wispforest:owo-sentinel:${property("owo_version")}")
-
     /* Lua */
     implementation("org.luaj:luaj-jse:3.0.1")
     modImplementation("org.luaj:luaj-jse:3.0.1")
     include("org.luaj:luaj-jse:3.0.1")
 
     /* Config */
-    modCompileOnly("dev.isxander:yet-another-config-lib:${property("yacl_version")}+1.20.1-fabric")
-    modRuntimeOnly("dev.isxander:yet-another-config-lib:${property("yacl_version")}+1.20.1-fabric")
+    modImplementation( "dev.isxander:yet-another-config-lib:${project.property("yacl_version")}")
+
+    /* Midnight lib */
+    val midnightlib = "eu.midnightdust:midnightlib:${project.property("midnightlib_version")}"
+    modImplementation(midnightlib)
+    include(midnightlib)
+
+
 
     /* Runtime funsies */
 //	modRuntimeOnly("maven.modrinth:isometric-renders:0.4.5+1.20")

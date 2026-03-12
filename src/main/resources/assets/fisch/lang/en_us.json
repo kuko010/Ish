@@ -1,13 +1,8 @@
 {
-  "key.fisch.open_paper": "Ignore me.",
-  "config.fisch.freeze_item": "Freezing Item",
-  "config.fisch.freeze_item.description": "The item used for freezing a entity. It must be a valid Identifier",
-  "config.fisch.fisch_category": "Configs for Fisch",
-  "config.fisch.fisch_category.tooltip": "uwu",
-  "config.fisch.freeze.group": "Freezing of Entities",
-  "config.fisch.freeze.group.description": "Configs for Freezing items",
-  "config.fisch.freeze_enable": "Freeze Enable",
-  "config.fisch.freeze_enable.description": "Just Enables or Disables The Freezing",
+  "fisch.midnightconfig.features": "Features",
+  "fisch.midnightconfig.enableLibTooltips": "Enable LibTooltips feature",
+
+  "$comment": "Ignore these entries below this one",
   "tooltip.libtooltips.generic.shift_up": "⏬ §l§3[Shift]§r ⏬",
   "tooltip.libtooltips.generic.shift_down": "⏫ §l§6[Shift]§r ⏫",
   "tooltip.libtooltips.generic.empty" : ""
