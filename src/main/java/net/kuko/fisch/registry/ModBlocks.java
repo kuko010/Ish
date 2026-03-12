@@ -1,7 +1,6 @@
-package net.kuko.fisch.registries;
+package net.kuko.fisch.registry;
 
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kuko.fisch.Fisch;
 //import net.kuko.fisch.block.BlockEntityExample;
 import net.minecraft.core.Registry;
@@ -10,7 +9,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 
 public class ModBlocks {
     /*

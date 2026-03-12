@@ -3,14 +3,13 @@ package net.kuko.fisch;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.loader.api.FabricLoader;
-import net.kuko.fisch.config.Config;
-import net.kuko.fisch.config.ConfigOptions;
+import net.kuko.fisch.command.CommandRegistry;
 import net.kuko.fisch.config.ConfigUtils;
 import net.kuko.fisch.data.DataRegistry;
-import net.kuko.fisch.registries.ModBlockEntities;
-import net.kuko.fisch.registries.ModBlocks;
-import net.kuko.fisch.registries.ModEnergy;
-import net.kuko.fisch.registries.ModItems;
+import net.kuko.fisch.registry.ModBlockEntities;
+import net.kuko.fisch.registry.ModBlocks;
+import net.kuko.fisch.registry.ModEnergy;
+import net.kuko.fisch.registry.ModItems;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +30,7 @@ public class Fisch implements ModInitializer {
 		ModItems.register();
 		ModEnergy.register();
 		DataRegistry.register();
+		CommandRegistry.register();
 
 		if (FabricLoader.getInstance().isModLoaded("computercraft")) {
 			net.kuko.fisch.computercraft.UpgradeRegistry.register();

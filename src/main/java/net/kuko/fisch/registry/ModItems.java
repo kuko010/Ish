@@ -1,4 +1,4 @@
-package net.kuko.fisch.registries;
+package net.kuko.fisch.registry;
 
 import net.kuko.fisch.Fisch;
 import net.minecraft.core.Registry;

@@ -1,12 +1,7 @@
-package net.kuko.fisch.registries;
+package net.kuko.fisch.registry;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
-import net.kuko.fisch.Fisch;
 //import net.kuko.fisch.block.entity.BlockEntityExampleBlockEntity;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.entity.BlockEntityType;
+
 
 public class ModBlockEntities  {
   /*

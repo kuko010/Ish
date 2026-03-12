@@ -1,4 +1,4 @@
-package net.kuko.fisch.registries;
+package net.kuko.fisch.registry;
 
 public class ModEnergy {
     public static void register() {

@@ -101,11 +101,13 @@ dependencies {
     include("org.luaj:luaj-jse:3.0.1")
 
     /* Config */
-    modImplementation( "dev.isxander:yet-another-config-lib:${project.property("yacl_version")}")
+    modCompileOnly( "dev.isxander:yet-another-config-lib:${project.property("yacl_version")}")
+  //  modRuntimeOnly( "dev.isxander:yet-another-config-lib:${project.property("yacl_version")}")
 
 
     /* Modmenu */
-    modImplementation("com.terraformersmc:modmenu:${project.property("modmenu_version")}")
+    modRuntimeOnly("com.terraformersmc:modmenu:${project.property("modmenu_version")}")
+    modCompileOnly("com.terraformersmc:modmenu:${project.property("modmenu_version")}")
 
     /* Midnight lib */
     val midnightlib = "eu.midnightdust:midnightlib:${project.property("midnightlib_version")}"

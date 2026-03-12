@@ -1,10 +1,5 @@
 package net.kuko.fisch.block.entity;
 
-import net.kuko.fisch.registries.ModBlockEntities;
-import net.minecraft.core.BlockPos;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.state.BlockState;
-
 /*
 public class BlockEntityExampleBlockEntity extends BlockEntity {
 
