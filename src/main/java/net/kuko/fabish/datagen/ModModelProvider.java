@@ -2,8 +2,11 @@ package net.kuko.fabish.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.kuko.fabish.registry.ModItems;
 import net.minecraft.data.models.BlockModelGenerators;
 import net.minecraft.data.models.ItemModelGenerators;
+import net.minecraft.data.models.model.ModelTemplate;
+import net.minecraft.data.models.model.ModelTemplates;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -24,9 +27,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         //        itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
-//
-//        itemModelGenerator.register(ModItems.COAL_BRIQUETTE, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
+
+    //    itemModelGenerators.generateFlatItem(ModItems.PEW_PEW, "bow", ModelTemplates.FLAT_ITEM);
     }
 }

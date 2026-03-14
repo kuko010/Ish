@@ -18,6 +18,8 @@ base {
     archivesName.set(property("archives_base_name") as String)
 }
 
+
+
 repositories {
     mavenCentral()
     // Add repositories to retrieve artifacts from in here.
@@ -201,3 +203,9 @@ publishMods {
         commitish = project.property("branch") as String
     }
 }
+
+fabricApi {                        //+
+    configureDataGeneration {      //+
+        client = true              //+
+    }                              //+
+}                                  //+
