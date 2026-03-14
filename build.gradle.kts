@@ -197,7 +197,7 @@ publishMods {
     github {
         repository = project.property("github_repo") as String
         accessToken = providers.environmentVariable("GITHUB_TOKEN")
-            .orElse(providers.provider { env.GITHUB_TOKEN.value })
+            .orElse(providers.provider { env.fetchOrNull("GITHUB_TOKEN") ?: "" })
         commitish = project.property("branch") as String
     }
 }
