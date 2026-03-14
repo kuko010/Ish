@@ -21,13 +21,7 @@ public class FabishClient implements ClientModInitializer {
                 ));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            while (openScreen.isDown()) {
-                if (client.player != null) {
-//                    client.player.displayClientMessage(Component.literal("Key Pressed!"), false);
-                    Minecraft mc = Minecraft.getInstance();
-                 //   mc.setScreen(new TheScreen());
-                }
-            }
+
         });
         if (FabricLoader.getInstance().isModLoaded("computercraft")) {
             net.kuko.fabish.compat.computercraft.UpgradeRegistry.clientRegister();
