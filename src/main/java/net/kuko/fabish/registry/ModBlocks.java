@@ -4,7 +4,7 @@ package net.kuko.fabish.registry;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kuko.fabish.Fabish;
 //import net.kuko.fisch.block.BlockEntityExample;
-import net.kuko.fabish.block.UltimateMachine;
+import net.kuko.fabish.registry.block.UltimateMachine;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;

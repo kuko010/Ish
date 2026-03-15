@@ -1,4 +1,4 @@
-package net.kuko.fabish.item;
+package net.kuko.fabish.registry.item;
 
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;

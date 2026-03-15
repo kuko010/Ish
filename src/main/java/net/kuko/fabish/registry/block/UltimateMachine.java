@@ -1,6 +1,6 @@
-package net.kuko.fabish.block;
+package net.kuko.fabish.registry.block;
 
-import net.kuko.fabish.block.entity.UltimateMachineBlockEntity;
+import net.kuko.fabish.registry.block.entity.UltimateMachineBlockEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

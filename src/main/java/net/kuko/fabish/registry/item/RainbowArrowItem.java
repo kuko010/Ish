@@ -1,7 +1,6 @@
-package net.kuko.fabish.item;
+package net.kuko.fabish.registry.item;
 
-import net.kuko.fabish.entity.AbstractRainbowArrow;
-import net.kuko.fabish.registry.ModEntityTypes; // your entity type registry
+import net.kuko.fabish.registry.entity.AbstractRainbowArrow;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArrowItem;   // extend ArrowItem, not Item
 import net.minecraft.world.item.ItemStack;

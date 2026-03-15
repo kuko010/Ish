@@ -1,4 +1,4 @@
-package net.kuko.fabish.client.render;
+package net.kuko.fabish.client.shader;
 
 import com.mojang.blaze3d.vertex.DefaultVertexFormat;
 import com.mojang.blaze3d.vertex.VertexFormat;

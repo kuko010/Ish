@@ -1,4 +1,4 @@
-package net.kuko.fabish.block;
+package net.kuko.fabish.registry.block;
 
 //import net.kuko.fisch.block.entity.BlockEntityExampleBlockEntity;
 

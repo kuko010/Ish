@@ -1,15 +1,12 @@
 package net.kuko.fabish.registry;
 
 import net.kuko.fabish.Fabish;
-import net.kuko.fabish.item.PewPewItem;
-import net.kuko.fabish.item.RainbowArrowItem;
+import net.kuko.fabish.registry.item.PewPewItem;
+import net.kuko.fabish.registry.item.RainbowArrowItem;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.ArrowItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 
 public class ModItems {
     /*

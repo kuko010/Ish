@@ -1,4 +1,4 @@
-package net.kuko.fabish.block.entity;
+package net.kuko.fabish.registry.block.entity;
 
 /*
 public class BlockEntityExampleBlockEntity extends BlockEntity {

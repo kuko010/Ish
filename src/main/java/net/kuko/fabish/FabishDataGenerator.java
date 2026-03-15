@@ -2,7 +2,7 @@ package net.kuko.fabish;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.kuko.fabish.datagen.ModModelProvider;
+import net.kuko.fabish.data.datagen.ModModelProvider;
 
 public class FabishDataGenerator implements DataGeneratorEntrypoint {
 	@Override

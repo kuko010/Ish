@@ -5,7 +5,7 @@ package net.kuko.fabish.registry;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.kuko.fabish.Fabish;
-import net.kuko.fabish.block.entity.UltimateMachineBlockEntity;
+import net.kuko.fabish.registry.block.entity.UltimateMachineBlockEntity;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;

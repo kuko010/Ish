@@ -2,7 +2,7 @@ package net.kuko.fabish.registry;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.kuko.fabish.Fabish;
-import net.kuko.fabish.entity.AbstractRainbowArrow;
+import net.kuko.fabish.registry.entity.AbstractRainbowArrow;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;

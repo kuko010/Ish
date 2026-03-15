@@ -1,4 +1,4 @@
-package net.kuko.fabish.client.render;
+package net.kuko.fabish.client.shader;
 
 import net.minecraft.client.renderer.ShaderInstance;
 
