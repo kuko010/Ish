@@ -1,4 +1,4 @@
-package net.kuko.fabish.compat.computercraft.turtle;
+package net.kuko.fabish.computercraft.turtle;
 
 import dan200.computercraft.api.turtle.AbstractTurtleUpgrade;
 import dan200.computercraft.api.turtle.TurtleUpgradeType;

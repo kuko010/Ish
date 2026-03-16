@@ -26,10 +26,9 @@ public class Fabish implements ModInitializer {
 		ModItems.register();
 		ModEnergy.register();
 		DataRegistry.register();
-		ModEntityTypes.register();
 
 		if (FabricLoader.getInstance().isModLoaded("computercraft")) {
-			net.kuko.fabish.compat.computercraft.UpgradeRegistry.register();
+			net.kuko.fabish.computercraft.UpgradeRegistry.register();
 		}
 
 		ConfigUtils.load(ConfigUtils.handler);
