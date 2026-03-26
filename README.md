@@ -2,8 +2,6 @@
 
 > ⚠️ **Highly unstable** — subject to frequent changes
 
-(Why fish? Because fish cool)
-
 <img width="128" height="128" alt="cod" src="https://github.com/user-attachments/assets/59b446a4-05a0-4969-aad5-9195d270f482" />
 ---
 
