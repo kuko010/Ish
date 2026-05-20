@@ -76,7 +76,7 @@ repositories {
 }
 
 
-val lib = file(".lib/1201")
+val lib = file(".lib")
 
 dependencies {
     minecraft("com.mojang:minecraft:${property("minecraft_version")}")
@@ -136,6 +136,8 @@ loom {
             programArg("--uuid=f3147754-7646-4687-8804-7acdf233c159")
         }
     }
+
+    accessWidenerPath = file("src/main/resources/${property("mod_id")}.accesswidener")
 }
 
 tasks {
