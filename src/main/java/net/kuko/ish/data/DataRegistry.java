@@ -8,6 +8,7 @@ import com.mojang.serialization.JsonOps;
 import net.fabricmc.fabric.api.resource.IdentifiableResourceReloadListener;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.kuko.ish.Ish;
+import net.kuko.ish.data.entry.DataEntry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.resources.ResourceManager;
@@ -27,6 +28,10 @@ public class DataRegistry extends SimpleJsonResourceReloadListener implements Id
     @Override
     protected void apply(Map<ResourceLocation, JsonElement> object, ResourceManager resourceManager, ProfilerFiller profilerFiller) {
         // use handle() here when you have actual codecs to parse
+        handle(object, DataEntry.CODEC, data -> {
+            // Do something with the parsed data
+            Ish.LOGGER.info("Loaded data: {}", data);
+        });
     }
 
     @Override
