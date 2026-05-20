@@ -14,6 +14,7 @@
 	"license": "MIT0",
 	"icon": "assets/ish/icon.png",
 	"environment": "*",
+	"accessWidener": "ish.accesswidener",
 	"entrypoints": {
 		"main": [
           "net.kuko.ish.Ish"
